@@ -14,3 +14,7 @@ class PriceHistory(models.Model):
 # NEXT
 # python manange.py migrate 0001_name_of_migration
 #  then we can use the show migration command to see if it worked or we could use the dbshell to check
+
+
+#To name migrations
+# python mananage.py makemigration historical_data --name then_the_name_you_want
